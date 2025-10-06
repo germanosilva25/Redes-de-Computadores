@@ -1,3 +1,4 @@
+### Introdução à VPN
 Uma **VPN (Virtual Private Network)**, ou **Rede Privada Virtual**, é uma tecnologia que permite criar uma conexão segura e criptografada entre um dispositivo (como um computador, celular ou tablet) e a internet. Seu principal objetivo é proteger os dados transmitidos, ocultar o endereço IP do usuário e garantir maior privacidade e segurança na navegação.
 
 Em termos técnicos, a VPN funciona como um **“túnel virtual”**. Quando o usuário se conecta à internet por meio de uma VPN, todo o tráfego de dados é redirecionado por um servidor remoto operado pelo serviço de VPN. Isso significa que as informações enviadas e recebidas são criptografadas, tornando-as praticamente inacessíveis para terceiros, como hackers, provedores de internet ou até órgãos governamentais. Assim, mesmo que alguém intercepte os dados, não conseguirá interpretá-los sem a chave de criptografia correta.
