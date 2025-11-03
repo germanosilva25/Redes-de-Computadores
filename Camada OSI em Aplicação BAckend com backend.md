@@ -56,5 +56,3 @@ O Servidor B (PHP) faz exatamente o processo inverso, chamado **Desencapsulament
 * **Camada 7 (Aplicação):** O Nginx/Apache recebe a requisição HTTP pura (`POST /api/novo_usuario...`). Ele vê que esse endpoint deve ser processado pelo **PHP**. Ele passa os dados (cabeçalhos e o corpo JSON) para o seu script PHP, que finalmente pode ler o JSON (ex: através de `file_get_contents('php://input')`) e processar a lógica.
 
 Portanto, mesmo que seja uma comunicação "só de backend", ela é uma cidadã de primeira classe na rede e utiliza rigorosamente todas as 7 camadas, exatamente como qualquer outra comunicação.
-
-Ficou claro o fluxo?
